@@ -25,6 +25,7 @@
 [core]
         excludesfile = ~/.gitignore
         editor = vim
+        autocrlf = input # For Mac and Linux https://help.github.com/articles/dealing-with-line-endings
 [apply]
         whitespace = nowarn
 [mergetool]
