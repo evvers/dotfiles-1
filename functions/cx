@@ -1,0 +1,5 @@
+cx () {
+  for file in "$@"; do
+    [ -f "$file" ] && chmod +x "$file"
+  done
+}
